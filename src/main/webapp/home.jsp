@@ -24,7 +24,7 @@
         <a href="deposit">Deposit</a>
         <a href="withdraw">Withdraw</a>
         <a href="transfer">Transfer</a>
-        <a href="signup.jsp">New Account</a>
+        <a href="create-account">New Account</a>
         <a href="logout" class="logout">Logout</a>
     </div>
 </nav>
