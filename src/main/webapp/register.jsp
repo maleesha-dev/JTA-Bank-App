@@ -54,7 +54,7 @@
         <button type="submit" class="btn btn-block">Register</button>
     </form>
 
-    <p class="switch-text">Already have an account? <a href="signin.jsp">Sign In</a></p>
+    <p class="switch-text">Already have an account? <a href="login.jsp">Sign In</a></p>
 </div>
 </body>
 </html>

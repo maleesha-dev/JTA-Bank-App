@@ -4,7 +4,7 @@
   Date: 7/22/2026
   Time: 3:42 PM
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" isErrorPage="true" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -20,6 +20,7 @@
     <span class="badge">[ ERROR ]</span>
     <h1>Something Went Wrong</h1>
     <p>We ran into a problem processing your request. Please try again, or return to the home page.</p>
+    <div><%=exception !=null ? exception.getMessage() : "An unexpected error occurred" %></div>
     <button class="btn" onclick="window.location.href='index.jsp'">Go To Home Page</button>
 </div>
 </body>

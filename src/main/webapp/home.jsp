@@ -43,7 +43,7 @@
         if (accounts == null || accounts.isEmpty()) {
     %>
     <div class="empty-state">
-        <p>You don't have any accounts yet. <a href="signup.jsp">Create New Account</a></p>
+        <p>You don't have any accounts yet. <a href="register.jsp">Create New Account</a></p>
     </div>
     <%
     } else {

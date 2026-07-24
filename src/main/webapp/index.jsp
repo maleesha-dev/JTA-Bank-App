@@ -30,8 +30,8 @@
     <h1>Welcome to JTA Bank</h1>
     <p>Secure, simple banking. Sign in to manage your accounts, transfers, and statements in one place.</p>
 <%--    <button class="btn" onclick="window.location.href='login'">Sign In</button>--%>
-    <a href="signin.jsp" class="btn">Login</a>
-    <a href="signup.jsp" class="btn">Register</a>
+    <a href="login.jsp" class="btn">Login</a>
+    <a href="register.jsp" class="btn">Register</a>
 </div>
 </body>
 </html>
